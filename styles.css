@@ -1,0 +1,29 @@
+/* Add your custom styles here */
+
+body {
+  padding-top: 56px; /* Adjust according to navbar height */
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Additional styles when scrolled */
+.navbar-scrolled {
+  background-color: #333 !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode button {
+  background-color: #fff;
+  color: #333;
+}
